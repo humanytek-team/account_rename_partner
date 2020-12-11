@@ -19,14 +19,12 @@
 ##############################################################################
 
 {
-    'name': 'Account Rename Partner',
-    'version': '1.0.0',
-    'author': 'Humanytek',
-    'website': 'http://humanytek.com',
-    'depends': [
-        'account_accountant',
+    "name": "Account Rename Partner",
+    "version": "1.0.0",
+    "author": "Humanytek",
+    "website": "http://humanytek.com",
+    "depends": [
+        "account",
     ],
-    'data': [
-        'views/account_invoice.xml',
-    ],
+    "data": [],
 }
